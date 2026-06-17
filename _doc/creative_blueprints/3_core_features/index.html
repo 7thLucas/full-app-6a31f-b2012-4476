@@ -1,0 +1,71 @@
+<style>
+  .mode-landscape .sl-grid { grid-template-columns: repeat(3, 1fr); }
+  .mode-portrait .sl-grid { grid-template-columns: repeat(2, 1fr); }
+  .persona-chip { cursor: pointer; transition: all 0.2s; }
+  .persona-chip.active { background: #2D9CDB; color: #ffffff; }
+  .persona-chip.inactive { background: #F3F4F6; color: #6B7280; }
+</style>
+
+<section class="w-full h-full overflow-auto bg-white">
+  <div class="flex flex-col h-full p-12 gap-5">
+
+    <!-- Header -->
+    <div>
+      <p class="text-sm font-semibold tracking-widest uppercase mb-1" style="color:#F2994A;">Core Features</p>
+      <h2 class="font-extrabold" style="font-size:2rem; color:#1F2937; font-family:'Poppins',sans-serif;">Built for every person in the pet ecosystem.</h2>
+    </div>
+
+    <!-- Persona chips -->
+    <div class="flex gap-3">
+      <span class="persona-chip active px-5 py-2 rounded-full text-sm font-semibold">🐶 Pet Owner</span>
+      <span class="persona-chip inactive px-5 py-2 rounded-full text-sm font-semibold">🏪 Business Admin</span>
+    </div>
+
+    <!-- Feature cards grid — Pet Owner view shown -->
+    <div class="sl-grid grid gap-4 flex-1">
+
+      <div class="flex flex-col gap-2 p-5 rounded-2xl" style="background:#EFF9FF; border:1px solid #BAE6FD;">
+        <span class="text-2xl">🛒</span>
+        <h4 class="font-bold text-sm" style="color:#0369A1; font-family:'Poppins',sans-serif;">Pet Shop</h4>
+        <p class="text-xs leading-relaxed" style="color:#374151;">Browse food, toys, accessories, and health supplies. Filter by pet type, category, and brand.</p>
+      </div>
+
+      <div class="flex flex-col gap-2 p-5 rounded-2xl" style="background:#ECFDF5; border:1px solid #A7F3D0;">
+        <span class="text-2xl">🩺</span>
+        <h4 class="font-bold text-sm" style="color:#065F46; font-family:'Poppins',sans-serif;">Vet Appointments</h4>
+        <p class="text-xs leading-relaxed" style="color:#374151;">View available veterinarians, browse services, and schedule appointments in a few taps.</p>
+      </div>
+
+      <div class="flex flex-col gap-2 p-5 rounded-2xl" style="background:#FFF3E8; border:1px solid #FED7AA;">
+        <span class="text-2xl">🏨</span>
+        <h4 class="font-bold text-sm" style="color:#92400E; font-family:'Poppins',sans-serif;">Pet Hotel</h4>
+        <p class="text-xs leading-relaxed" style="color:#374151;">Book boarding or daycare stays. See room availability and pricing upfront.</p>
+      </div>
+
+      <div class="flex flex-col gap-2 p-5 rounded-2xl" style="background:#F5F3FF; border:1px solid #DDD6FE;">
+        <span class="text-2xl">🐾</span>
+        <h4 class="font-bold text-sm" style="color:#5B21B6; font-family:'Poppins',sans-serif;">Pet Profiles</h4>
+        <p class="text-xs leading-relaxed" style="color:#374151;">Store name, breed, age, and medical history for each pet. Keep all info in one place.</p>
+      </div>
+
+      <div class="flex flex-col gap-2 p-5 rounded-2xl" style="background:#FFF7ED; border:1px solid #FDE68A;">
+        <span class="text-2xl">📋</span>
+        <h4 class="font-bold text-sm" style="color:#92400E; font-family:'Poppins',sans-serif;">History & Reminders</h4>
+        <p class="text-xs leading-relaxed" style="color:#374151;">Track all past orders and bookings. Get timely reminders so nothing is ever missed.</p>
+      </div>
+
+      <div class="flex flex-col gap-2 p-5 rounded-2xl" style="background:#FEF2F2; border:1px solid #FECACA;">
+        <span class="text-2xl">🤖</span>
+        <h4 class="font-bold text-sm" style="color:#991B1B; font-family:'Poppins',sans-serif;">AI Pet Assistant</h4>
+        <p class="text-xs leading-relaxed" style="color:#374151;">24/7 chatbot that recommends products, explains services, and helps book appointments instantly.</p>
+      </div>
+
+    </div>
+
+    <!-- Admin teaser -->
+    <div class="flex items-center gap-3 px-5 py-3 rounded-xl" style="background:#F9FAFB; border:1px solid #E5E7EB;">
+      <span class="text-sm" style="color:#6B7280;">🏪 <strong style="color:#374151;">Business Admin</strong> — Inventory, schedules, hotel rooms, revenue reports, and chatbot review all in one dashboard.</span>
+    </div>
+
+  </div>
+</section>
