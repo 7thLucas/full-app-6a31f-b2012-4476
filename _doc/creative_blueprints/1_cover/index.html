@@ -1,0 +1,59 @@
+<style>
+  .mode-landscape .sl-layout { flex-direction: row; }
+  .mode-portrait .sl-layout { flex-direction: column; }
+  .mode-landscape .sl-content { width: 52%; }
+  .mode-portrait .sl-content { width: 100%; }
+  .mode-landscape .sl-visual { width: 48%; }
+  .mode-portrait .sl-visual { width: 100%; height: 40%; }
+</style>
+
+<section class="w-full h-full overflow-auto bg-white">
+  <div class="sl-layout flex h-full">
+
+    <!-- Left: Content -->
+    <div class="sl-content flex flex-col justify-between p-12" style="background: #ffffff;">
+      <!-- Top badge -->
+      <div>
+        <span class="inline-flex items-center gap-2 px-3 py-1 rounded-full text-xs font-semibold tracking-widest uppercase" style="background:#E8F4FB; color:#2D9CDB;">
+          🐾 Pet Care Platform
+        </span>
+      </div>
+
+      <!-- Main headline -->
+      <div class="flex-1 flex flex-col justify-center gap-5">
+        <h1 class="font-extrabold leading-tight" style="font-size:3.2rem; color:#1F2937; font-family:'Poppins',sans-serif; letter-spacing:-0.02em;">
+          One App.<br/>
+          <span style="color:#2D9CDB;">Every</span> Pet Need.
+        </h1>
+        <p class="text-lg leading-relaxed max-w-xs" style="color:#4B5563; font-family:'Inter',sans-serif;">
+          Shop, vet bookings, and pet hotel stays — all in one warm, friendly platform built for pet lovers and the businesses that serve them.
+        </p>
+        <div class="flex gap-3 mt-2">
+          <span class="px-4 py-1.5 rounded-full text-sm font-medium" style="background:#FFF3E8; color:#D97706;">🛒 Shop</span>
+          <span class="px-4 py-1.5 rounded-full text-sm font-medium" style="background:#E8F4FB; color:#2D9CDB;">🩺 Vet</span>
+          <span class="px-4 py-1.5 rounded-full text-sm font-medium" style="background:#ECFDF5; color:#059669;">🏨 Hotel</span>
+        </div>
+      </div>
+
+      <!-- Attribution -->
+      <div>
+        <data-attribution />
+      </div>
+    </div>
+
+    <!-- Right: Visual -->
+    <div class="sl-visual relative overflow-hidden" style="background: linear-gradient(145deg, #E8F4FB 0%, #FFF3E8 60%, #ECFDF5 100%);">
+      <img
+        src="https://api-stag.qb-deck.quantumbyte.ai/common/image-generation?prompt=happy%20golden%20retriever%20and%20tabby%20cat%20together%20in%20a%20warm%20modern%20pet%20shop%2C%20soft%20natural%20light%2C%20teal%20and%20amber%20accents%2C%20editorial%20lifestyle%20photography%2C%20clean%20background"
+        alt="MyPet — happy pets in a modern pet shop"
+        class="w-full h-full object-cover"
+      />
+      <!-- Overlay brand mark -->
+      <div class="absolute bottom-6 right-6 flex items-center gap-2 px-4 py-2 rounded-2xl" style="background:rgba(255,255,255,0.9); backdrop-filter:blur(8px);">
+        <span style="font-size:1.4rem;">🐾</span>
+        <span class="font-extrabold text-lg" style="color:#1F2937; font-family:'Poppins',sans-serif;">MyPet</span>
+      </div>
+    </div>
+
+  </div>
+</section>
