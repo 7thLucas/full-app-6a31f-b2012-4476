@@ -1,0 +1,90 @@
+<style>
+  .mode-landscape .sl-layout { flex-direction: row; gap: 2.5rem; }
+  .mode-portrait .sl-layout { flex-direction: column; gap: 1.5rem; }
+  .mode-landscape .sl-half { width: 50%; }
+  .mode-portrait .sl-half { width: 100%; }
+</style>
+
+<section class="w-full h-full overflow-auto bg-white">
+  <div class="flex flex-col h-full p-12 gap-6">
+
+    <!-- Header -->
+    <div>
+      <p class="text-sm font-semibold tracking-widest uppercase mb-1" style="color:#2D9CDB;">The Problem & Solution</p>
+      <h2 class="font-extrabold" style="font-size:2rem; color:#1F2937; font-family:'Poppins',sans-serif;">Pet owners deserve one place for everything.</h2>
+    </div>
+
+    <!-- Two-zone split -->
+    <div class="sl-layout flex flex-1 gap-6">
+
+      <!-- Problem zone -->
+      <div class="sl-half flex flex-col gap-4 p-8 rounded-2xl" style="background:#FEF2F2; border:1.5px solid #FECACA;">
+        <div class="flex items-center gap-3 mb-1">
+          <span class="text-2xl">😓</span>
+          <h3 class="font-bold text-lg" style="color:#B91C1C; font-family:'Poppins',sans-serif;">The Problem</h3>
+        </div>
+        <p class="text-sm leading-relaxed" style="color:#374151;">
+          Pet owners today are stuck juggling <strong>three or more separate apps</strong> just to care for their pets — one for supplies, another to book a vet, and a third to reserve a boarding spot.
+        </p>
+        <ul class="flex flex-col gap-2 mt-1">
+          <li class="flex items-start gap-2 text-sm" style="color:#374151;">
+            <span style="color:#EF4444; margin-top:2px;">✗</span>
+            No centralised pet profile or medical history
+          </li>
+          <li class="flex items-start gap-2 text-sm" style="color:#374151;">
+            <span style="color:#EF4444; margin-top:2px;">✗</span>
+            Missed appointments and forgotten reminders
+          </li>
+          <li class="flex items-start gap-2 text-sm" style="color:#374151;">
+            <span style="color:#EF4444; margin-top:2px;">✗</span>
+            Business owners managing chaos across spreadsheets
+          </li>
+          <li class="flex items-start gap-2 text-sm" style="color:#374151;">
+            <span style="color:#EF4444; margin-top:2px;">✗</span>
+            No 24/7 support — customers wait to contact staff
+          </li>
+        </ul>
+      </div>
+
+      <!-- Solution zone -->
+      <div class="sl-half flex flex-col gap-4 p-8 rounded-2xl" style="background:#EFF9FF; border:1.5px solid #BAE6FD;">
+        <div class="flex items-center gap-3 mb-1">
+          <span class="text-2xl">🐾</span>
+          <h3 class="font-bold text-lg" style="color:#0369A1; font-family:'Poppins',sans-serif;">The Solution — MyPet</h3>
+        </div>
+        <p class="text-sm leading-relaxed" style="color:#374151;">
+          MyPet is a <strong>single platform</strong> that unifies every pet care need — shopping, vet scheduling, hotel booking, and a 24/7 AI assistant — alongside a full admin panel for the business.
+        </p>
+        <ul class="flex flex-col gap-2 mt-1">
+          <li class="flex items-start gap-2 text-sm" style="color:#374151;">
+            <span style="color:#2D9CDB; margin-top:2px;">✓</span>
+            One app, one login, complete pet profile
+          </li>
+          <li class="flex items-start gap-2 text-sm" style="color:#374151;">
+            <span style="color:#2D9CDB; margin-top:2px;">✓</span>
+            Instant reminders for every booking and appointment
+          </li>
+          <li class="flex items-start gap-2 text-sm" style="color:#374151;">
+            <span style="color:#2D9CDB; margin-top:2px;">✓</span>
+            Business dashboard — inventory, schedules, revenue
+          </li>
+          <li class="flex items-start gap-2 text-sm" style="color:#374151;">
+            <span style="color:#2D9CDB; margin-top:2px;">✓</span>
+            AI Pet Assistant available around the clock
+          </li>
+        </ul>
+      </div>
+
+    </div>
+
+    <!-- Bottom image strip -->
+    <div class="rounded-xl overflow-hidden" style="height:80px;">
+      <img
+        src="https://api-stag.qb-deck.quantumbyte.ai/common/image-generation?prompt=clean%20modern%20pet%20care%20mobile%20app%20interface%20showing%20product%20shop%20and%20vet%20booking%2C%20warm%20teal%20and%20white%20UI%2C%20minimal%20flat%20design"
+        alt="MyPet app interface preview"
+        class="w-full h-full object-cover"
+      />
+    </div>
+
+  </div>
+</section>
