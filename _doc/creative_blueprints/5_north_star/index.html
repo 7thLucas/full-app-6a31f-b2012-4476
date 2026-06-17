@@ -1,0 +1,96 @@
+<section class="w-full h-full overflow-auto bg-white">
+  <div class="flex flex-col h-full p-12 gap-5">
+
+    <!-- Header -->
+    <div class="flex items-start justify-between">
+      <div>
+        <p class="text-sm font-semibold tracking-widest uppercase mb-1" style="color:#2D9CDB;">North Star Metric</p>
+        <h2 class="font-extrabold" style="font-size:2rem; color:#1F2937; font-family:'Poppins',sans-serif;">Weekly Verified Operations</h2>
+        <p class="text-sm mt-1" style="color:#6B7280;">The number that proves MyPet is working — real transactions completed every week.</p>
+      </div>
+      <span class="px-3 py-1.5 rounded-full text-xs font-semibold" style="background:#FFF3E8; color:#D97706; white-space:nowrap;">Projected impact — based on your inputs</span>
+    </div>
+
+    <!-- Verified operations definition -->
+    <div class="grid gap-3" style="grid-template-columns: repeat(3, 1fr);">
+      <div class="flex items-center gap-3 p-4 rounded-xl" style="background:#EFF9FF; border:1px solid #BAE6FD;">
+        <span class="text-xl">🛒</span>
+        <div>
+          <p class="font-bold text-sm" style="color:#0369A1; font-family:'Poppins',sans-serif;">Order Placed</p>
+          <p class="text-xs" style="color:#374151;">Pet product purchase completed &amp; confirmed</p>
+        </div>
+      </div>
+      <div class="flex items-center gap-3 p-4 rounded-xl" style="background:#ECFDF5; border:1px solid #A7F3D0;">
+        <span class="text-xl">🩺</span>
+        <div>
+          <p class="font-bold text-sm" style="color:#065F46; font-family:'Poppins',sans-serif;">Appointment Booked</p>
+          <p class="text-xs" style="color:#374151;">Vet appointment scheduled &amp; confirmed</p>
+        </div>
+      </div>
+      <div class="flex items-center gap-3 p-4 rounded-xl" style="background:#FFF3E8; border:1px solid #FED7AA;">
+        <span class="text-xl">🏨</span>
+        <div>
+          <p class="font-bold text-sm" style="color:#92400E; font-family:'Poppins',sans-serif;">Hotel Stay Reserved</p>
+          <p class="text-xs" style="color:#374151;">Pet hotel booking completed &amp; confirmed</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- WVO formula -->
+    <div class="flex flex-col gap-3 p-6 rounded-2xl" style="background:#F9FAFB; border:1.5px solid #E5E7EB;">
+      <p class="font-bold text-sm mb-1" style="color:#1F2937; font-family:'Poppins',sans-serif;">📐 Weekly Verified Operations — Formula</p>
+
+      <div class="flex flex-wrap items-center gap-2 text-sm" style="color:#374151;">
+        <span class="px-3 py-1 rounded-lg font-mono font-semibold" style="background:#FEF3C7; color:#92400E;">
+          [Active customers/week]
+          <span class="ml-1 text-xs font-normal" style="color:#B45309;">← Assumption — adjust this</span>
+        </span>
+        <span class="font-bold" style="color:#6B7280;">×</span>
+        <span class="px-3 py-1 rounded-lg font-mono font-semibold" style="background:#FEF3C7; color:#92400E;">
+          [Avg transactions/customer/week]
+          <span class="ml-1 text-xs font-normal" style="color:#B45309;">← Assumption — adjust this</span>
+        </span>
+        <span class="font-bold" style="color:#6B7280;">=</span>
+        <span class="px-4 py-1 rounded-lg font-bold text-base" style="background:#2D9CDB; color:#ffffff;">WVO / week</span>
+      </div>
+
+      <!-- Example row -->
+      <div class="flex items-center gap-2 text-xs mt-1 pl-1" style="color:#6B7280;">
+        <span>Example:</span>
+        <span class="font-mono px-2 py-0.5 rounded" style="background:#E5E7EB;">200 customers/week</span>
+        <span>×</span>
+        <span class="font-mono px-2 py-0.5 rounded" style="background:#E5E7EB;">1.5 transactions each</span>
+        <span>=</span>
+        <span class="font-mono px-2 py-0.5 rounded font-bold" style="background:#DBEAFE; color:#1D4ED8;">300 WVO</span>
+      </div>
+    </div>
+
+    <!-- Value & ROI -->
+    <div class="grid gap-3" style="grid-template-columns: 1fr 1fr;">
+
+      <div class="flex flex-col gap-2 p-5 rounded-2xl" style="background:#EFF9FF; border:1px solid #BAE6FD;">
+        <p class="text-xs font-semibold tracking-wide uppercase" style="color:#2D9CDB;">Value Per Operation</p>
+        <p class="text-xs leading-relaxed" style="color:#374151;">
+          Each confirmed transaction saves ~<strong>15 min</strong> of manual coordination (calls, WhatsApp, spreadsheets) for staff.
+          <br/>At a typical staff rate of <span class="font-mono text-xs px-1 rounded" style="background:#FEF3C7; color:#92400E;">~$8/hr</span>
+          <span class="text-xs" style="color:#B45309;">(Assumption — adjust)</span>:
+          <br/><strong>15 min × $8/hr = ~$2 saved per operation</strong>
+        </p>
+      </div>
+
+      <div class="flex flex-col gap-2 p-5 rounded-2xl" style="background:#1F2937;">
+        <p class="text-xs font-semibold tracking-wide uppercase" style="color:#9CA3AF;">Projected Annual Value</p>
+        <div class="flex items-end gap-2">
+          <p class="font-extrabold text-2xl" style="color:#FFFFFF; font-family:'Poppins',sans-serif;">$31,200</p>
+          <p class="text-xs mb-1" style="color:#9CA3AF;">/ year</p>
+        </div>
+        <p class="text-xs" style="color:#D1D5DB;">
+          300 WVO × $2/op × 52 weeks
+          <br/><span style="color:#9CA3AF; font-size:0.65rem;">Example only — update WVO &amp; rate above to recalculate</span>
+        </p>
+      </div>
+
+    </div>
+
+  </div>
+</section>
