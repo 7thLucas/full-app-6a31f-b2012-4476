@@ -1,43 +1,53 @@
-Build an app named "MyPet". It's a Pet Care & Pet Shop Management application that allows pet owners to purchase pet products, book veterinary services, and reserve pet hotel accommodations in one convenient platform.
+# MyPet — Pet Care & Pet Shop Management Platform
 
-The app should serve as a complete digital hub for pet owners, making it easy to care for their pets while helping pet shop businesses manage sales and services efficiently.
+## What It Is
+A complete digital hub for pet owners and pet shop businesses. Customers shop for pet products, book veterinary appointments, and reserve pet hotel stays — all in one app. Business owners get a full admin panel to manage everything.
 
-Customers should be able to:
+## App Name
+MyPet
 
-* Browse and purchase pet products such as food, toys, accessories, and health supplies
-* Search products by pet type, category, and brand
-* Schedule veterinary appointments
-* View available veterinarians and service offerings
-* Book pet hotel stays for boarding and daycare
-* Manage pet profiles including name, breed, age, and medical information
-* View booking history and order history
-* Receive reminders for appointments and hotel reservations
+## Target Users
+- **Pet Owners (Customers)**: Need a single app for all pet-related needs — shopping, vet bookings, and boarding, instead of juggling separate services.
+- **Pet Shop Business Owners / Admins**: Need tools to manage products, services, schedules, bookings, and revenue from one place.
 
-The platform should also include an AI Pet Assistant chatbot that is available 24/7 to answer customer questions and provide guidance. The chatbot should help pet owners quickly find information without needing to contact staff directly.
+## Core Customer Features
+- Browse & purchase pet products (food, toys, accessories, health supplies)
+- Search and filter products by pet type, category, and brand
+- Schedule veterinary appointments; view available vets and service offerings
+- Book pet hotel stays (boarding & daycare)
+- Manage pet profiles (name, breed, age, medical information)
+- View booking history and order history
+- Receive reminders for appointments and hotel reservations
 
-AI Pet Assistant Capabilities:
+## AI Pet Assistant (24/7 Chatbot)
+Always-available AI assistant that acts as a knowledgeable customer service rep:
+- Answer questions about pet products
+- Recommend products based on pet type, breed, age, and needs
+- Explain veterinary services and procedures
+- Help customers book appointments and hotel stays
+- Answer FAQs and provide basic pet care tips
+- Help customers track bookings and orders
+- Escalate complex questions to staff when necessary
 
-* Answer questions about pet products
-* Recommend suitable products based on pet type, breed, age, and needs
-* Explain veterinary services and procedures
-* Help customers book appointments and hotel stays
-* Answer frequently asked questions
-* Provide basic pet care tips and recommendations
-* Help customers track bookings and orders
-* Escalate complex questions to staff when necessary
+## Admin / Business Owner Features
+- Manage products and inventory
+- Manage veterinary services and schedules
+- Manage pet hotel rooms, cages, and availability
+- Track bookings and appointments
+- View sales and revenue reports
+- Manage customer information and pet profiles
+- Review chatbot conversations and common customer questions
 
-Business owners should be able to:
+## Brand & Tone
+- Warm, friendly, modern — appeals to pet owners
+- Trustworthy, organized, and professional
+- Centered around the best care for pets
+- The AI assistant feels like a caring, knowledgeable companion, not a bot
 
-* Manage products and inventory
-* Manage veterinary services and schedules
-* Manage pet hotel rooms, cages, and availability
-* Track bookings and appointments
-* View sales and revenue reports
-* Manage customer information and pet profiles
-* Review chatbot conversations and common customer questions
-
-The platform should provide a seamless experience where pet owners can handle all their pet-related needs in a single application instead of using separate services.
-
-The application should have a warm, friendly, and modern design that appeals to pet owners while remaining professional and easy to use. The overall experience should feel trustworthy, organized, and centered around providing the best care for pets.
-
-The AI assistant should feel like a knowledgeable customer service representative that helps customers make informed decisions, book services faster, and receive immediate assistance whenever they need it.
+## Design Direction
+- Color palette: Warm teal primary (#2D9CDB), amber accent (#F2994A), soft off-white background (#F9FAFB)
+- Typography: Rounded friendly sans-serif headings (Poppins/Nunito), clean body text (Inter)
+- Rounded cards, soft shadows, warm button styles, pet-themed iconography
+- Customer side: card-based grid, clean booking flows, mobile-first
+- Admin side: sidebar navigation, dashboard metrics, data tables
+- AI chatbot: floating widget accessible from all pages
